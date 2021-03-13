@@ -1,0 +1,36 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100%;
+  padding: 44px 8px 8px;
+}
+
+.toolbar {
+  margin: -36px 0 4px;
+  height: 32px;
+}
+
+.toolbar-button {
+  width: 100%;
+  max-width: 600px;
+  background: #aaa;
+  border: 1px solid #777;
+  height: 32px;
+}
+
+.tapable {
+  height: 100%;
+  background: #ccc;
+  padding: 8px;
+}
+
+.tapable:active {
+  background: #ddd;
+}
